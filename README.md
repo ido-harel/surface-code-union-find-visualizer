@@ -68,6 +68,3 @@ The implementation uses:
 - **Parity tracking** — cluster parity is updated when two clusters are merged
 
 When two clusters are joined, their syndrome parities are combined using XOR.
-
-```python
-self.parity[a] ^= self.parity[b]
